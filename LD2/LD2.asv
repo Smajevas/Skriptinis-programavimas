@@ -1,0 +1,19 @@
+%1
+a = 200:-10:10
+
+b = log10(a)'
+
+c = 10.^b
+
+d = c- a
+
+%2
+A = [pi/2 3i exp(pi); log2(2) 2*pi log10(1); log10(exp(1)) pi^pi cos(pi)]
+
+A(:, 2) = rand(3, 1)
+
+sum(A)
+
+%3
+clear
+s(t) = A*sin(2*pi*f*t)
