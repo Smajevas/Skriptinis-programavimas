@@ -5,7 +5,6 @@ studentas(2).pavarde = 'Danilevičius'
 studentas(2).grupe = 'EEf-25/2'
 studentas(2).pazymiai = [2 4 7 3 8 6 5]
 
-% Struktūros išvedimas
 disp(studentas)
 
 %1b
